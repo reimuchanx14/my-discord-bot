@@ -10,7 +10,7 @@ const client = new Client({
     ]
 });
 
-const TOKEN = 'MTU2OTY1ODU1MTc3MTU5ODg0OA.Gs3c_y.Z0LGEzt9GRBGEwin49K19Gr3IfUZKjoAmmlf5U';
+const TOKEN = process.env.DISCORD_TOKEN;
 
 client.once('ready', () => {
     console.log(`봇 로그인 성공: ${client.user.tag}`);
