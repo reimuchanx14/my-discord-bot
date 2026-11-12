@@ -23,7 +23,7 @@ client.on('messageCreate', async (message) => {
     if (message.content === '!들어와') {
         const voiceChannel = message.member.voice.channel;
         if (!voiceChannel) {
-            return message.reply('먼저 음성 채널에 들어가 주세요!');
+            return message.reply('어디를 병신아 ㅋㅋ');
         }
 
         try {
