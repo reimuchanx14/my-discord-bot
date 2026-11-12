@@ -34,7 +34,7 @@ client.on('messageCreate', async (message) => {
                 selfDeaf: true,
             });
 
-            message.reply(`[${voiceChannel.name}] 예아`);
+            message.reply(`예아`);
         } catch (error) {
             console.error('음성 채널 입장 오류:', error);
             message.reply('입장 중 오류가 발생했습니다.');
